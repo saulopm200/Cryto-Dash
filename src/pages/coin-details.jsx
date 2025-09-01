@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useParams } from "react-router";
-const API_URL = import.meta.env.VITE_COIN
+//const API_URL = import.meta.env.VITE_COIN
+const API_URL = import.meta.env.VITE_COIN_API_URL;
 
 const CoinDetailsPage = () => {
 
