@@ -5,7 +5,7 @@ import Homepage from "./pages/home";
 import AboutPage from "./pages/about";
 import NotFoundPage from "./pages/not-found";
 import CoinDetailsPage from "./pages/coin-details";
-const API_URL = import.meta.env.VITE_COINS_API_URL;
+const API_URL = import.meta.env.VITE_COIN_API_URL;
 
 
 const App = () => {
